@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+}
+
+.pure-menu {
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+}
+.pure-menu a {
+    color: rgb(65, 65, 65);
+}
+.pure-menu-heading {
+    font-weight: bold;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/dh1.jpg);
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+   color: white;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+
+.pure-g {
+    padding: 0.5em;
+}
+.home-grid {
+    padding: 4em;
+    text-align: center;
+    border-style: solid;
+}
